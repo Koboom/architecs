@@ -1,0 +1,147 @@
+* {box-sizing: border-box;}
+body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;    
+}
+.topnav
+{
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: -webkit-sticky;
+    position: sticky;    
+    top: 0;
+    border: 1px solid transparent;
+    list-style-type: none;
+    z-index: 1;    
+}
+.topnav li {
+    float: left;
+}
+.topnav li a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+    opacity: 0.4;
+}
+.topnav li a:hover {
+    opacity: 1;
+}
+header img {
+    width: 100%;   
+    height: auto;
+    opacity: 0.8;
+}
+.topleft {
+    position: absolute;
+    top: 280px;
+    left: 15px;
+    font-size: 20px;
+}
+.topleft span b{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.responsive {
+    float: left;
+    width: 24.999%;
+}
+.gallery {
+    border: 1px solid #333;
+    height: auto;
+    
+}
+.gallery:hover {
+    opacity: 0.8;
+}
+.gallery img {
+    width: 100%;
+    padding: 2px;        
+}
+.desc {    
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.8;
+}
+@media screen and (max-width:800px) {
+    .responsive {
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px) {
+    .responsive {
+        width: 100%;
+    }    
+}
+@media screen and (max-width:700px) {
+    .small,.topleft {
+        display: none;
+    }
+}
+.container {    
+    padding-left: 20px;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+.about{
+    padding: 20px;
+}
+.about h3 {
+    text-align: center;
+}
+.about p {
+    text-indent: 50px;
+    text-align: justify;
+}
+.section h3 {
+    text-align: center;
+}
+input[type=text] {
+    width: 100%;    
+    background-color: #aaa;
+    padding: 20px;
+    margin: 10px;
+}
+input[type=text]:hover {
+    opacity: 0.8;
+}
+textarea[type=text] {
+    padding: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #aaa;
+}
+textarea[type=text]:hover{
+    opacity: 0.8;
+}
+button[type=submit]
+{
+    margin: 10px;
+    width: 20%;
+    background-color: green;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+button[type=submit]:hover {
+    background-color: darkgreen;
+}
+form{
+    padding: 10px;
+    margin: 10px;
+}
+.footer{
+    text-align: center;
+}
+.slideShow {
+    text-align: center;
+    margin: 20px;    
+}
